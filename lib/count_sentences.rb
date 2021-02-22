@@ -23,9 +23,6 @@ class String
   end
 
   def count_sentences
-    period = self.split(".").compact
-    question_mark = self.split("?").compact
-    exclamation = self.split("!").compact
-    period.count + question_mark.count + exclamation.count
+    self.split(".")
   end
 end
