@@ -23,7 +23,8 @@ class String
   end
 
   def count_sentences
-    b = self.split(".")
+    period = self.split(".")
+    
     b.count
   end
 end
